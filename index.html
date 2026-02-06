@@ -70,6 +70,40 @@
           email:<a href="mailto:asdwad@gmail.com">asdwad@gmail.com</a> <br />
           <a href="tel:(11) 91234-5678">(11) 91234-5678</a>
         </address>
+
+        <form action="name">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required /> <br />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required /> <br />
+
+          <label for="phone">Telefone:</label>
+          <input type="tel" id="phone" name="phone" /> <br />
+
+          <label for="message">Mensagem:</label>
+          <select name="assunto" id="assunto">
+            <option value="orcamento">orcamento</option>
+            <option value="duvida">duvida</option>
+            <option value="sugestao">sugestao</option>
+          </select>
+          <br />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+          <br />
+
+          <input type="checkbox" id="inscricao" name="inscricao" />
+          <label for="inscricao">Deseja receber novidades?</label> <br />
+
+          <input type="submit" value="Enviar mensagem" />
+        </form>
       </section>
     </footer>
   </body>
